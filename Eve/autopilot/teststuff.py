@@ -2,8 +2,8 @@ import cv2 as cv
 import numpy
 
 # test files used
-samplescreen = "C:/Users/ryans/OneDrive/PROGRAMMING/gamebot/Eve/autopilot/sample.PNG"
-gate = "C:/Users/ryans/OneDrive/PROGRAMMING/gamebot/Eve/autopilot/gate.PNG"
+samplescreen = "C:/Users/ryans/OneDrive/PROGRAMMING/gamebot/Eve/autopilot/sample1.PNG"
+gate = "C:/Users/ryans/OneDrive/PROGRAMMING/gamebot/Eve/autopilot/station.PNG"
 
 haystack_img = cv.imread(samplescreen, cv.IMREAD_UNCHANGED)
 needle_img = cv.imread(gate, cv.IMREAD_UNCHANGED)
