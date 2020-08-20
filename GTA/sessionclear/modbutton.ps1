@@ -1,11 +1,12 @@
 <# 
 My First Mod menu
 #>
+$userProfile = $env:USERPROFILE
 
 function Clear_Lobby { 
-& C:\Users\ryans\Desktop\PSTools\pssuspend.exe GTA5
+& C:\Users\$userProfile\Desktop\PSTools\pssuspend.exe GTA5
 Start-Sleep -Seconds 10
-& C:\Users\ryans\Desktop\PSTools\pssuspend.exe -r GTA5
+& C:\Users\$userProfile\Desktop\PSTools\pssuspend.exe -r GTA5
 }
 
 Add-Type -AssemblyName System.Windows.Forms
